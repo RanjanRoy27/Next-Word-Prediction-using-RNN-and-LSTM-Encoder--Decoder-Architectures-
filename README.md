@@ -35,7 +35,7 @@ NumPy, Matplotlib
 
 Scikit-learn (confusion matrix)
 
-🧹 Dataset Preprocessing
+Dataset Preprocessing
 
 Tokenization using basic_english tokenizer (TorchText)
 
@@ -47,14 +47,14 @@ Created (input_sequence → target_word) pairs
 
 Unknown words converted to <unk>
 
-🏗️ Model Architectures
+Model Architectures
 RNN Encoder–Decoder
 Input → Embedding → 3-Layer RNN → Hidden State → Linear → Prediction
 
 LSTM Encoder–Decoder
 Input → Embedding → 3-Layer LSTM → Hidden State → Linear → Prediction
 
-📊 Evaluation Metrics
+Evaluation Metrics
 
 Accuracy
 
@@ -68,7 +68,7 @@ Layer-wise Performance Comparison
 
 OOV Word Evaluation
 
-📝 Key Results
+Key Results
 Model	Accuracy	Perplexity
 RNN	~62%	~39.0
 LSTM	~70%	~11.0
@@ -78,7 +78,7 @@ LSTM	~70%	~11.0
 ✔ Lower perplexity
 ✔ Reduces vanishing gradient effect
 
-🚀 How to Run the Project
+ How to Run the Project
 1. Install Dependencies
 pip install torch torchtext numpy matplotlib scikit-learn
 
@@ -95,7 +95,7 @@ python src/train.py --model lstm
 4. Evaluate
 python src/evaluate.py
 
-📌 Conclusion
+Conclusion
 
 This project demonstrates how RNN and LSTM architectures perform on real NLP sequence tasks.
 LSTM clearly outperforms RNN due to improved handling of long-term dependencies.
